@@ -8,7 +8,9 @@ PreReq:
 
 usage: 
 
-cfcopy {app-name} {system-domain} {filename with path in app-container} {local-filename}
+cfcopy {app-name} {system-domain} {filename with path in app-container} {local-filename with path}
+
+where {system-domain} is the domain on which the cf api is listening.. e.g. cf login -a api.{system-domain}
 
 details:
 cfcopy
