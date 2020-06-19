@@ -1,6 +1,11 @@
 # cfcopy
 copy files from PCF container to windows desktop using cf client a putty scp (pscp)
 
+PreReq:
+putty scp (pscp) on windows path
+cf cli on windows path
+cf logged into the target PCF foudnation and targetting appropriate org and space
+
 usage: 
 
 cfcopy {app-name} {system-domain} {filename with path in app-container} {local-filename}
