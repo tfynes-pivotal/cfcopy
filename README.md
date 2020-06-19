@@ -22,5 +22,5 @@ Note PCF hosted application files are hosted in /home/vcap/app
 Use cf ssh {app-name} and locate file of interest to be copied down
 Defaults to using index 0 (first AI) if there is more than one - change script if source file required from difference app instance.
 
-known issue: after file transfer from PCF to local windows desktop completes, pscp hangs at 100%
+known issue: after file transfer from PCF to local windows desktop completes, pscp sometimes hangs at 100%
 
